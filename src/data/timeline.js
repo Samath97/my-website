@@ -4,7 +4,7 @@ export default [
         title: "Master's Degree in Machine Learning and Artificial Intelligence at Aalto University",
         duration: '6 years',
         details:
-            "I have completed my bachelor's degree in Computer science with a minor in Data Science. I will be completing my Master's degree at the end of April 2024. For my bachelor thesis, I studied the design principle of exergames (including VR) to improve player satisfaction. For Master studies, I am majoring in AI &amp; Machine Learning, and Cloud and Security engineering as a minor. My Master thesis focuses on generating 3D segmentations from 2D medical image data using Machine Learning.",
+            "I have completed my bachelor's degree in Computer science with a minor in Data Science. I will be completing my Master's degree at the end of April 2024. For my bachelor thesis, I studied the design principle of exergames (including VR) to improve player satisfaction. For Master studies, I am majoring in Artificial Intelligence, Machine Learning, and Cloud and Security engineering as a minor. My Master thesis focuses on generating 3D segmentations from 2D medical image data using Machine Learning.",
     },
     {
         year: '2021',
