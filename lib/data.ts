@@ -2,9 +2,10 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import unrealImg from "@/public/unreal_drive.jpg";
+import automationImg from "@/public/automation_models.jpg";
+import racingsiteImg from "@/public/racing_site.jpg";
+import forestsiteImg from "@/public/forest_site.jpg";
 
 export const links = [
   {
@@ -62,25 +63,36 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Unreal Projects",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "Game projects I developed using Unreal Engine and C++. This Google Drive folder contains .rar files of the projects",
+    tags: ['C++', 'Unreal Engine', 'Game Development'],
+    imageUrl: unrealImg,
+    link: 'https://drive.google.com/drive/folders/1_N0ICQH6mr3kNO4EU64JymAv6JFG-xLW?usp=sharing',
   },
   {
-    title: "rmtDev",
+    title: "Automation game Car Models",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Car models I designed using Automation Game. This Google Drive folder contains images of the car models.",
+    tags: ['Automation game', 'Car models', 'Designing'],
+    imageUrl: automationImg,
+    link: 'https://drive.google.com/drive/folders/1olSjNmUjtLD4zP1gsn3dMOLVIHVGCTP4?usp=sharing',
   },
   {
-    title: "Word Analytics",
+    title: "Nature Site",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "I made this website in High School. It demonstrates my finnish language skills and creativity.",
+    tags: ['Finnish', 'Nature', 'Creativity', 'Wix'],
+    imageUrl: forestsiteImg,
+    link: 'https://samathlokuge.wixsite.com/smmy',
+  },
+  {
+    title: "Racing Game Site",
+    description:
+      "This was the first website I made back in middle school. It discusses about cars from Need for Speed and Burnout video games.",
+    tags: ['Need4Speed', 'Burnout', 'Gaming', 'Weebly'],
+    imageUrl: racingsiteImg,
+    link: 'https://nfsburnout.weebly.com/index.html',
   },
 ] as const;
 
