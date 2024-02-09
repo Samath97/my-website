@@ -20,7 +20,7 @@ jobs:
         run: npm i sharp
 
       - name: Build
-        run: npm run dev # The build command of your project
+        run: npm run build # The build command of your project
 
       - name: Push
         uses: s0/git-publish-subdir-action@develop
