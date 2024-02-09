@@ -36,28 +36,66 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Master's Degree in ML & AI at Aalto University",
+    location: "Espoo, Finland",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+    "I am majoring in Artificial Intelligence, Machine Learning, and Cloud and Security engineering as a minor in Aalto University.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2018 - Present",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Summer Trainee, MagiCAD Oy",
+    location: "Espoo, Finland",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked on an image processing task where I learned C#, C++ and Revit API skills."
+      ,
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2021",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Summer Trainee, Nokia Bell Labs",
+    location: "Espoo, Finland",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "I researched MP-TCP & MP-QUIC implementation and compare benefits / drawbacks and tested environment in virtualbox / Linux environment."
+      ,
+    icon: React.createElement(CgWorkAlt),
+    date: "2020",
+  },
+  {
+    title: "Teaching assistant, Aalto University",
+    location: "Espoo, Finland",
+    description:
+      "Helped 1st- and 2nd-year students to complete the Python assignments through mentorship."
+      ,
+    icon: React.createElement(CgWorkAlt),
+    date: "2020",
+  },
+  {
+    title: "Summer Trainee, Nokia",
+    location: "Espoo, Finland",
+    description:
+      "I taught a Scala programming language course to employees and tested Nokia AVA cloud-based platform that consist of big data storage, analytics and automation."
+      ,
+    icon: React.createElement(CgWorkAlt),
+    date: "2018",
+  },
+  {
+    title: "Military Conscript, Karelia Brigade",
+    location: "Kouvola, Finland",
+    description:
+      "I did the basic training for 2 months and served as an Anti-Aircraft personnel for 4 months."
+      ,
+    icon: React.createElement(CgWorkAlt),
+    date: "2017",
+  },
+  {
+    title: "Lifeguard, Suomalainen Yhteiskoulu",
+    location: "Helsinki, Finland",
+    description:
+      "During High School, I worked as a one of the school’s lifeguard. This required me to do the Red Cross first aid course."
+      ,
+    icon: React.createElement(CgWorkAlt),
+    date: "2014 - 2015",
   },
 ] as const;
 
@@ -97,23 +135,20 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
   "JavaScript",
   "TypeScript",
   "React",
   "Next.js",
   "Node.js",
+  "HTML",
+  "CSS",
   "Git",
   "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
   "Python",
-  "Django",
-  "Framer Motion",
+  "Scala",
+  "C++",
+  "QT",
+  "Linux",
+  "PyTorch",
+  "Tensorflow",
 ] as const;
